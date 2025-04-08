@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+#root {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: #333;
+    color: white;
+}
+
+.sample-category {
+    margin-bottom: 20px;
+}
+
+.sample-item {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin: 5px;
+    background: #fff;
+    cursor: grab;
+}
